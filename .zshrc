@@ -197,4 +197,4 @@ git config --global user.email "zxcxzcz@qq.com"
 git config --global user.name "yixin"
 alias submit="git add . && git commit -m 'update' && git push"
 alias remake="git checkout . && git pull"
-
+export GIT_SSL_NO_VERIFY=1
