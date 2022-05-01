@@ -6,7 +6,7 @@ cp sources.list /etc/apt/sources.list
 apt update
 # config zsh
 # apt install zsh
-sudo apt install zsh
+sudo apt install zsh -y
 git clone https://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
 # cp .oh-my-zsh  ~/.oh-my-zsh -r
 cp .zshrc ~/.zshrc # my config
