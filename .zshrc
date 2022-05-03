@@ -172,6 +172,7 @@ fi
 #############################################################
 export EDITOR=vim
 
+## alias & env
 alias cd..="cd .."
 alias cd...="cd ../.."
 alias gi="grep -i"
