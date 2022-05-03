@@ -21,4 +21,4 @@ git clone https://hub.fastgit.xyz/zsh-users/zsh-syntax-highlighting.git ~/.oh-my
 #cp settings.json /root/.local/share/code-server/User/settings.json
 
 # alias cat
-cat alisa_file.sh >> ~/.bashrc
+cat alias_file.sh >> ~/.bashrc
