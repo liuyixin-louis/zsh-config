@@ -26,3 +26,26 @@ git config --global user.name "yixin"
 alias submit="git add . && git commit -m 'update' && git push"
 alias remake="git checkout . && git pull"
 export GIT_SSL_NO_VERIFY=1
+alias qns="sudo fuser -v /dev/nvidia* |awk '{for(i=1;i<=NF;i++)print "kill -9 " $i;}' | sudo sh"
+
+function extract () {
+if [ -f $1 ] ; then
+case $1 in
+*.tar.bz2) tar xvjf $1 ;;
+*.tar.gz) tar xvzf $1 ;;
+*.tar.xz) tar Jxvf $1 ;;
+*.bz2) bunzip2 $1 ;;
+*.rar) rar x $1 ;;
+*.gz) gunzip $1 ;;
+*.tar) tar xvf $1 ;;
+*.tbz2) tar xvjf $1 ;;
+*.tgz) tar xvzf $1 ;;
+*.zip) unzip -d `echo $1 | sed 's/\(.*\)\.zip/\1/'` $1;;
+*.Z) uncompress $1 ;;
+*.7z) 7z x $1 ;;
+*) echo "don't know how to extract '$1'" ;;
+esac
+else
+echo "'$1' is not a valid file!"
+fi
+}
