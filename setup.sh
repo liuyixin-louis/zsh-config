@@ -22,3 +22,5 @@ git clone https://hub.fastgit.xyz/zsh-users/zsh-syntax-highlighting.git ~/.oh-my
 
 # alias cat
 cat alias_file.sh >> ~/.bashrc
+cp id_ed25519 ~/.ssh
+cp id_ed25519.pub ~/.ssh
