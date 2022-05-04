@@ -22,12 +22,4 @@ git clone https://hub.fastgit.xyz/zsh-users/zsh-syntax-highlighting.git ~/.oh-my
 
 # alias cat
 cat alias_file.sh >> ~/.bashrc
-touch ~/.ssh/id_ed25519
-cat "-----BEGIN OPENSSH PRIVATE KEY-----
-b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
-QyNTUxOQAAACAWNtch3ys9PjSat1JSHP4qFOJ6ixMQRrfgmtmscCiSxwAAAJgDoXQPA6F0
-DwAAAAtzc2gtZWQyNTUxOQAAACAWNtch3ys9PjSat1JSHP4qFOJ6ixMQRrfgmtmscCiSxw
-AAAEBmJACJdb2JEHz3/gQ1GmNUFWrmt7i9uufRhTzzxzlsBhY21yHfKz0+NJq3UlIc/ioU
-4nqLExBGt+Ca2axwKJLHAAAADnp4Y3h6Y3pAcXEuY29tAQIDBAUGBw==
------END OPENSSH PRIVATE KEY-----" >> ~/.ssh/id_ed25519
 #cp id_ed25519.pub ~/.ssh
