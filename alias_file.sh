@@ -49,3 +49,15 @@ else
 echo "'$1' is not a valid file!"
 fi
 }
+
+alias tnew="tmux new"
+alias t0="tmux a -t 0"
+alias t1="tmux a -t 1"
+alias t2="tmux a -t 2"
+alias t3="tmux a -t 3"
+alias t4="tmux a -t 4"
+alias t5="tmux a -t 5"
+alias t6="tmux a -t 6"
+alias t7="tmux a -t 7"
+alias t8="tmux a -t 8"
+alias t9="tmux a -t 9"
