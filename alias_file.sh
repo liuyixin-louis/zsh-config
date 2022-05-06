@@ -21,6 +21,8 @@ alias premv="sudo apt remove --purge"
 alias ns=nvidia-smi
 alias vrc='vim ~/.bashrc'
 alias src="source ~/.bashrc"
+alias vzrc='vim ~/.zshrc'
+alias szrc="source ~/.zshrc"
 git config --global user.email "zxcxzcz@qq.com"
 git config --global user.name "yixin"
 alias submit="git add . && git commit -m 'update' && git push"
@@ -61,3 +63,4 @@ alias t6="tmux a -t 6"
 alias t7="tmux a -t 7"
 alias t8="tmux a -t 8"
 alias t9="tmux a -t 9"
+alias tls="tmux ls"

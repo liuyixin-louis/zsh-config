@@ -194,8 +194,22 @@ alias premv="sudo apt remove --purge"
 alias ns=nvidia-smi
 alias vrc='vim ~/.bashrc'
 alias src="source ~/.bashrc"
-git config --global user.email "zxcxzcz@qq.com"
-git config --global user.name "yixin"
+#git config --global user.email "zxcxzcz@qq.com"
+#git config --global user.name "yixin"
 alias submit="git add . && git commit -m 'update' && git push"
 alias remake="git checkout . && git pull"
 export GIT_SSL_NO_VERIFY=1
+
+
+alias tnew="tmux new"
+alias t0="tmux a -t 0"
+alias t1="tmux a -t 1"
+alias t2="tmux a -t 2"
+alias t3="tmux a -t 3"
+alias t4="tmux a -t 4"
+alias t5="tmux a -t 5"
+alias t6="tmux a -t 6"
+alias t7="tmux a -t 7"
+alias t8="tmux a -t 8"
+alias t9="tmux a -t 9"
+alias tls="tmux ls"
