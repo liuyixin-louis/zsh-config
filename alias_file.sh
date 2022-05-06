@@ -26,7 +26,7 @@ git config --global user.name "yixin"
 alias submit="git add . && git commit -m 'update' && git push"
 alias remake="git checkout . && git pull"
 export GIT_SSL_NO_VERIFY=1
-alias qns="sudo fuser -v /dev/nvidia* |awk '{for(i=1;i<=NF;i++)print "kill -9 " $i;}' | sudo sh"
+#alias qns="sudo fuser -v /dev/nvidia* |awk '{for(i=1;i<=NF;i++)print "kill -9 " $i;}' | sudo sh"
 
 function extract () {
 if [ -f $1 ] ; then
