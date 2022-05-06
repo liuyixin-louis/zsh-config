@@ -23,8 +23,8 @@ alias vrc='vim ~/.bashrc'
 alias src="source ~/.bashrc"
 alias vzrc='vim ~/.zshrc'
 alias szrc="source ~/.zshrc"
-git config --global user.email "zxcxzcz@qq.com"
-git config --global user.name "yixin"
+# git config --global user.email "zxcxzcz@qq.com"
+# git config --global user.name "yixin"
 alias submit="git add . && git commit -m 'update' && git push"
 alias remake="git checkout . && git pull"
 export GIT_SSL_NO_VERIFY=1
