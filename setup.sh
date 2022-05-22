@@ -1,8 +1,8 @@
 # update apt source
 cd $(cd $(dirname $0);pwd)
-pip install apt-select
-apt-select
-cp sources.list /etc/apt/sources.list
+# pip install apt-select
+# apt-select
+# cp sources.list /etc/apt/sources.list
 apt-get update -y
 apt-get upgrade -y
 apt-get install build-essential -y
