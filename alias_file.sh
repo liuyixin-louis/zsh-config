@@ -52,7 +52,10 @@ echo "'$1' is not a valid file!"
 fi
 }
 
-alias tnew="tmux new"
+function tnew () {
+  tmux new -s $1;
+}
+
 alias t0="tmux a -t 0"
 alias t1="tmux a -t 1"
 alias t2="tmux a -t 2"
@@ -65,3 +68,4 @@ alias t8="tmux a -t 8"
 alias t9="tmux a -t 9"
 alias tls="tmux ls"
 alias wnv="watch -n 1 nvidia-smi"
+}
