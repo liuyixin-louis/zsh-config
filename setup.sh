@@ -3,9 +3,9 @@ cd $(cd $(dirname $0);pwd)
 # pip install apt-select
 # apt-select
 # cp sources.list /etc/apt/sources.list
-sudo apt-get update -y
-sudo apt-get upgrade -y
-sudo apt-get install build-essential -y
+#sudo apt-get update -y
+#sudo apt-get upgrade -y
+#sudo apt-get install build-essential -y
 sudo apt install zsh -y
 if [[ "$1" = "china" ]]; then
 # config zsh
