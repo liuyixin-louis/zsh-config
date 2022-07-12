@@ -13,7 +13,7 @@ if [[ "$1" = "china" ]]; then
 git clone https://hub.fastgit.xyz/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
 # cp .oh-my-zsh  ~/.oh-my-zsh -r
 cp .zshrc ~/.zshrc
-sudo apt-get install powerline fonts-powerline
+sudo apt-get install powerline fonts-powerline -y
 git clone https://hub.fastgit.xyz/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
 chsh -s /bin/zsh
 git clone https://hub.fastgit.xyz/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
