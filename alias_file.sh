@@ -25,8 +25,10 @@ alias vzrc='vim ~/.zshrc'
 alias szrc="source ~/.zshrc"
 # git config --global user.email "zxcxzcz@qq.com"
 # git config --global user.name "yixin"
-alias submit="git add . && git commit -m 'update' && git push"
-alias remake="git checkout . && git pull"
+alias gpp="git pull"
+alias guu="gitsm upload"
+#alias submit="git add . && git commit -m 'update' && git push"
+#alias remake="git checkout . && git pull"
 export GIT_SSL_NO_VERIFY=1
 #alias qns="sudo fuser -v /dev/nvidia* |awk '{for(i=1;i<=NF;i++)print "kill -9 " $i;}' | sudo sh"
 
