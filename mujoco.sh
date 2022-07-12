@@ -53,3 +53,6 @@ if [ ! -d ~/.mujoco/mujoco200/ ]; then
   cp mjkey.txt ~/.mujoco/mujoco200/bin
 
 fi
+
+#cat "export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:~/.mujoco/mujoco210/bin" >> ~/.zshrc
+#cat "export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:~/.mujoco/mujoco210/bin" >> ~/.bashrc

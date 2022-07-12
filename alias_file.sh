@@ -68,4 +68,8 @@ alias t8="tmux a -t 8"
 alias t9="tmux a -t 9"
 alias tls="tmux ls"
 alias wnv="watch -n 1 nvidia-smi"
-}
+
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:~/.mujoco/mujoco210/bin
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:~/.mujoco/mjpro131/bin
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:~/.mujoco/mujoco200/bin
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/nvidia
